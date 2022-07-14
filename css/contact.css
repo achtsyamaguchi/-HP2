@@ -51,7 +51,7 @@
 
   .contact_form_box1,
 .contact_form_box2 {
-  height: 4vh;
+  height: 6vh;
   width: 70%;
   padding-left: 5px;
   font-size: clamp(1.6rem,1.4vw,2rem);
@@ -98,6 +98,7 @@
   transition: 0.4s;
   cursor: pointer;
   font-weight: bold;
+  margin: 0 auto;
   font-size: clamp(1.5rem,1.7vw,2.5rem);
 }
 
@@ -141,8 +142,9 @@
 
 .access_root {
   position: absolute;
-  top: 27%;
-  left: 70%;
+  top: 50%;
+  left:75%;
+  transform: translate(-10%,-40%);
 }
 
 .access_root h2 {

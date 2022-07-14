@@ -20,7 +20,7 @@
   position: relative;
   background-image: url(../img/honey-top.jpg);
   width: 50%;
-  height: 100vh;
+  height:50vh;
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -29,7 +29,7 @@
 .top_visual_left {
   
   width: 50%;
-  height: 100vh;
+  height: 50vh;
   background-color: #e8a31f;
   clip-path: polygon(0 0, calc(100% - 10vw)0,100% 100%,0 100%);
 }
@@ -57,14 +57,14 @@
 
 
 .concept_txt h2 {
-  font-size: clamp(1.8rem,2.2vw,3rem);
+  font-size: clamp(1.8rem,2.2vw,2.5rem);
   font-weight: bold;
   margin-bottom: 5rem;
   border-bottom: 1px solid #10602b;
 }
 
 .concept_txt p {
-  font-size: clamp(1.8rem,1.8vw,2.5rem);
+  font-size: clamp(1.8rem,1.8vw,2rem);
   /* flex-grow: 1; */
 }
 
@@ -107,13 +107,13 @@
 }
 
 .works_txt h2 {
-  font-size: clamp(1.8rem,2.1vw,3rem);
+  font-size: clamp(1.8rem,2.1vw,2.5rem);
   margin-bottom: 6rem;
   border-bottom: 1px solid #10602b;
 }
 
 .works_txt p {
-  font-size: clamp(1.8rem,1.8vw,2.5rem);
+  font-size: clamp(1.8rem,1.8vw,2rem);
 }
 
 .works_txt {
@@ -166,14 +166,14 @@
 }
 
 .company_txt h2 {
-  font-size:clamp(1.8rem,2.1vw,3rem);
+  font-size:clamp(1.8rem,2.1vw,2.5rem);
   display: inline-block;
   border-bottom: 2px solid #10602b;
   margin-bottom: 7.2rem;
 }
 
 .company_txt p {
-  font-size: clamp(1.8rem,1.8vw,2.5rem);
+  font-size: clamp(1.8rem,1.8vw,2rem);
   width: 70%;
   display: inline-block;
   text-align: left;
@@ -202,25 +202,25 @@
   left: 40%;
   background-color: #fff;
   width: 60%;
-  padding:4.2% 11.9%;
+  padding: 5% 11.9%;
 }
 
 .recruit_txt h3 {
-  font-size: clamp(1.8rem,2.2vw,3rem);
+  font-size: clamp(1.8rem,2.2vw,2.5rem);
   font-weight: bold;
   text-align: center;
 }
 
 .recruit_txt h2 {
-  font-size: clamp(2.2rem,2.5vw,3.5rem);
+  font-size: clamp(2.2rem,2.5vw,2.5rem);
   font-weight: bold;
   width: fit-content;
-  margin: 4.8rem auto;
+  margin: 3rem auto;
   border-bottom: 5px solid #e8a31f;
 }
 
 .recruit_txt p {
-  font-size: clamp(1.8rem,1.8vw,2.5rem);
+  font-size: clamp(1.8rem,1.8vw,2rem);
 }
 
 .btn_recruit {

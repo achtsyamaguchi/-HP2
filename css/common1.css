@@ -52,6 +52,7 @@ header {
   margin-left: 1.5rem;
 }
 
+
 /* ham-btn------------------------- */
 .ham_btn {
   display: block;
@@ -67,25 +68,41 @@ header {
 
 .bar {
   width: 20px;      
-  height: 2px;        
+  height: 3px;        
   display: block;      
   position: absolute;      
-  left: 50%;      
+  /* left: 60%;       */
   transform: translateX(-50%);      
   background-color: #fff;    
 }
 
 .bar_top {
-  top: 20%;
+  top: 21.5%;
 }
 
 .bar_mid {
-  top: 40%;
+  top: 41.5%;
+}
+
+/* ×ボタンにする---------------------------------- */
+.ham_btn.close .bar_top {      
+  transform: translate(-50% ,8px) rotate(45deg);      
+  transition: transform .3s;    
+}    
+.ham_btn.close .bar_mid {      
+  opacity: 0;       
+  transition: opacity .3s;    
+}    
+.ham_btn.close .bar_bottom {      
+transform: translate(-50%,-5px) rotate(-45deg);      
+transition: transform .3s;    
 }
 
 .bar_bottom {
-  bottom: 37%;
+  bottom: 33.5%;
 }
+
+
 
 
 
@@ -183,11 +200,49 @@ header {
   
 
 @media screen and (max-width: 886px) {
-  .header_nav {
-    display: none;
+  
+
+  .header_ul {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
   }
+
+  .header_li {
+    font-size: clamp(2rem,3.7vw,3rem);
+    margin-bottom: 3rem;
+  }
+
+  .header_nav_wrapper {
+  background-color: #e8a31f;
+  width: 100vw;      
+  height: 100vh;      
+  position: fixed;      
+  top: 0;      
+  left: 0;
+
+  
+  transition: all .5s;       
+  z-index: 5;
+  visibility: hidden;
+  opacity: 0;    
+  }
+
   .ham_btn {
     visibility: visible;
+    z-index: 5;
+  }
+
+  .header_nav_wrapper.fade {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .noscroll{
+    overflow: hidden;
   }
 
 }
