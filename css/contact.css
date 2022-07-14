@@ -190,12 +190,13 @@
   }
 
   .access_inner {
-    
     flex-direction: column;
   }
 
   .access_root {
-    position: static; 
+    position: sticky; 
+    transform: none;
+    left: 0;
   }
 
   .access_root h2 {
@@ -215,10 +216,7 @@
     margin-bottom: unset;
     margin-right: 8rem;
   }
-
 }
-
-
 
 
 @media screen and (max-width: 400px) {

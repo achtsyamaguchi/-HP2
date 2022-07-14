@@ -33,7 +33,7 @@ img {
 
 header {
   background-color: #10602B;
-  padding: 2.2% 3.5rem;
+  padding: 2.2% 3rem;
   font-size: clamp(1.9rem,2vw,3rem);
   font-weight: bold;
   position: relative;
@@ -77,12 +77,18 @@ header {
 }
 
 .bar_top {
-  top: 21.5%;
+  top: 21%;
 }
 
 .bar_mid {
-  top: 41.5%;
+  top: 41%;
 }
+
+.bar_bottom {
+  bottom: 33.5%;
+}
+
+
 
 /* ×ボタンにする---------------------------------- */
 .ham_btn.close .bar_top {      
@@ -98,9 +104,7 @@ transform: translate(-50%,-5px) rotate(-45deg);
 transition: transform .3s;    
 }
 
-.bar_bottom {
-  bottom: 33.5%;
-}
+
 
 
 
@@ -110,12 +114,12 @@ transition: transform .3s;
 .section_ttl {
   width: 60%;
   text-align: center;
-  font-size: clamp(2rem,3.5vw,4.5rem);
+  font-size: clamp(2rem,3.2vw,4.5rem);
   font-weight: bold;
   background-color: #10602B;
   color: #fff;
   padding: 2.2% 0;
-  margin-bottom: 7.6%;
+  margin-bottom: 6.8%;
 }
 
 /* more btn----- */
@@ -130,7 +134,7 @@ transition: transform .3s;
 }
 
 .btn a {
-  font-size: clamp(2.5rem,3.2vw,3rem);
+  font-size: clamp(2rem,3.2vw,2.5rem);
   color: #333;
   font-weight: bold;
 }
@@ -156,12 +160,12 @@ transition: transform .3s;
 .footer_ul {
   display: flex;
   justify-content: center;
-  font-size: clamp(1.8rem,1.7vw,2.5rem);
+  font-size: clamp(1.5rem,1.7vw,2.5rem);
 }
 
 .footer_li {
   padding: 0 4%;
-  border-right: 3px solid #e8a31f;
+  border-right: 2px solid #e8a31f;
 }
 
 .footer_li:last-child {
@@ -212,7 +216,7 @@ transition: transform .3s;
   }
 
   .header_li {
-    font-size: clamp(2rem,3.7vw,3rem);
+    font-size: clamp(2rem,3.7vw,2.5rem);
     margin-bottom: 3rem;
   }
 
@@ -224,7 +228,7 @@ transition: transform .3s;
   top: 0;      
   left: 0;
 
-  
+
   transition: all .5s;       
   z-index: 5;
   visibility: hidden;
@@ -252,13 +256,57 @@ transition: transform .3s;
   .section_ttl {
     margin-bottom: 9.1%;
   }
-  .footer_nav {
-    display: none;
-  }
 
   .footer_img {
     margin-top: 2%;
-    padding-bottom: 6.7%;
+    padding-bottom: 3%;
+  }
+}
+
+
+
+
+@media screen and (max-width: 610px) {
+
+  .footer_ul {
+    display: block;
+    text-align: center;
+  }
+
+  .footer_li {
+    padding: 0;
+    border-right: none;
+    margin-bottom: 4%;
+}
+
+}
+
+
+@media screen and (max-width: 425px) {
+  .bar_top {
+    top: 17%;
+  }
+  
+  .bar_mid {
+    top: 35%;
+  }
+  
+  .bar_bottom {
+    bottom: 39%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .bar_top {
+    top: 15%;
+  }
+  
+  .bar_mid {
+    top: 33%;
+  }
+  
+  .bar_bottom {
+    bottom: 41%;
   }
 }
 
@@ -268,3 +316,4 @@ transition: transform .3s;
     }
 }
 
+}

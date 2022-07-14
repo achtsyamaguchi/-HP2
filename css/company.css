@@ -19,7 +19,7 @@
 }
 
 .company_info_txt {
-  font-size: clamp(1.6rem,1.7vw,2.4rem);
+  font-size: clamp(1.6rem,1.7vw,2rem);
   border: 1px solid #10602b;
   width: 55.6%;
   padding: 3.8% 7.9%;

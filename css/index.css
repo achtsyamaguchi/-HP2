@@ -20,7 +20,7 @@
   position: relative;
   background-image: url(../img/honey-top.jpg);
   width: 50%;
-  height:50vh;
+  height:100vh;
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -29,7 +29,7 @@
 .top_visual_left {
   
   width: 50%;
-  height: 50vh;
+  height: 100vh;
   background-color: #e8a31f;
   clip-path: polygon(0 0, calc(100% - 10vw)0,100% 100%,0 100%);
 }
@@ -228,7 +228,7 @@
 }
 
 /* footer-------------------- */
-.footer_inner {
+/* .footer_inner {
   background-color: #10602b;
 }
 
@@ -247,7 +247,7 @@
 .footer_ul {
   display: flex;
   justify-content: center;
-  font-size: clamp(1.8rem,1.7vw,2.5rem);
+  font-size: clamp(1.5rem,1.7vw,2.5rem);
 }
 
 .footer_li {
@@ -267,6 +267,13 @@
 .footer_img {
   width: 16%;
   margin: 0 auto;
+} */
+
+@media screen and (max-width: 1024px) {
+  .top_visual_left,
+  .top_visual_right {
+    height: 70vh;
+  }
 }
 
 
@@ -320,8 +327,6 @@
   .concept_img2,
   .concept_img3 {
     width: 50%;
-    /* height: auto; */
-    /* height: 50vh; */
   }
 
   .concept_img1 img,
@@ -345,7 +350,7 @@
 
   .section_ttl {
     margin-bottom: 13%;
-    font-size: 3rem;
+    /* font-size: 3rem; */
   }
 
   /* works------------------ */
