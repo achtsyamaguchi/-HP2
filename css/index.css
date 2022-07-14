@@ -271,24 +271,8 @@
 
 
 
-/* @media screen and (max-width: 770px) {
-  .footer_nav {
-    display: none;
-  }
-
-  .footer_img {
-    margin-top: 2%;
-    padding-bottom: 6.7%;
-  }
-} */
-
-
-
 @media screen and (max-width: 886px) {
-  /* .header_nav {
-    display: none;
-  } */
-
+  
   .top_visual_left {
     position: static;
     display:none

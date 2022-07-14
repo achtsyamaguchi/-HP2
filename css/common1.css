@@ -6,9 +6,11 @@
 
 html {
   font-size: 62.5%;
+  
 }
 
 body {
+  font-family:'M PLUS Rounded 1c',sans-serif;
   line-height: 1.2;
   height: 100%;
   width: 100%;
@@ -34,6 +36,7 @@ header {
   padding: 2.2% 3.5rem;
   font-size: clamp(1.9rem,2vw,3rem);
   font-weight: bold;
+  position: relative;
 }
 
 .header_content {
@@ -49,11 +52,48 @@ header {
   margin-left: 1.5rem;
 }
 
+/* ham-btn------------------------- */
+.ham_btn {
+  display: block;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: none;
+  position: relative;
+  position: absolute;
+  right: 2%;
+  top:20%;
+  visibility: hidden;
+}
+
+.bar {
+  width: 20px;      
+  height: 2px;        
+  display: block;      
+  position: absolute;      
+  left: 50%;      
+  transform: translateX(-50%);      
+  background-color: #fff;    
+}
+
+.bar_top {
+  top: 20%;
+}
+
+.bar_mid {
+  top: 40%;
+}
+
+.bar_bottom {
+  bottom: 37%;
+}
+
+
+
 /* --concept----------------- */
 .section_ttl {
   width: 60%;
   text-align: center;
-  font-size: clamp(2rem,3.5vw,5rem);
+  font-size: clamp(2rem,3.5vw,4.5rem);
   font-weight: bold;
   background-color: #10602B;
   color: #fff;
@@ -89,11 +129,11 @@ header {
   color: #fff;
   font-size: clamp(1.8rem,2.5vw,3.5rem);
   font-weight: bold;
-  padding-top: 9.5%;
+  padding-top: 8%;
 }
 
 .footer_nav {
-  margin: 7rem 0;
+  margin: 4% 0;
 }
 
 .footer_ul {
@@ -122,7 +162,41 @@ header {
 }
 
 
-@media screen and (max-width: 770px) {
+.fadeIn {
+  animation-name:fadeDownAnime;
+  animation-duration:0.5s;
+  animation-fill-mode:forwards;
+  opacity:0;
+  }
+  
+  @keyframes fadeDownAnime{
+    from {
+      opacity: 0;
+    transform: translateY(-100px);
+    }
+  
+    to {
+      opacity: 1;
+    transform: translateY(0);
+    }
+  }
+  
+
+@media screen and (max-width: 886px) {
+  .header_nav {
+    display: none;
+  }
+  .ham_btn {
+    visibility: visible;
+  }
+
+}
+
+@media screen and (max-width: 769px) {
+
+  .section_ttl {
+    margin-bottom: 9.1%;
+  }
   .footer_nav {
     display: none;
   }
@@ -133,8 +207,9 @@ header {
   }
 }
 
-@media screen and (max-width: 886px) {
-  .header_nav {
-    display: none;
-  }
+@media screen and (max-width: 375px) {
+    .section_ttl {
+      margin-bottom: 16%;
+    }
 }
+
