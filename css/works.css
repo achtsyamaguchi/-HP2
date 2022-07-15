@@ -88,7 +88,7 @@
 
 .works_inner2_txt h2 {
   display: inline-block;
-  margin-bottom: 19.4%;
+  margin-bottom: 13%;
   border-bottom: 2px solid #10602B;
 }
 
@@ -152,11 +152,11 @@
 
   .works_inner1_txt {
     width: 100%;
-    padding: 5.3rem 5rem 9.4rem
+    padding: 6rem 5rem 6rem
   }
 
   .works_inner1_txt h2 {
-    margin-bottom: 6.6rem;
+    /* margin-bottom: 6.6rem; */
     padding-bottom: 1.3rem;
     /* font-size: 3.5vw; */
   }
@@ -213,7 +213,7 @@
 @media screen and (max-width: 425px) {
   .works_inner1_txt h2,
   .works_inner1_txt p {
-    font-size: 1.8rem;
+    /* font-size: 1.8rem; */
   }
 
   .works_inner1_txt {
@@ -254,11 +254,11 @@
 
   .works_inner2_txt h2,
   .works_inner2_txt p {
-    font-size: 1.8rem;
+    /* font-size: 1.8rem; */
   }
 
   .works_inner3_item ul li {
-    font-size: 1.8rem;
+    /* font-size: 1.8rem; */
     margin-bottom: 2.5rem;
     line-height: 1;
     

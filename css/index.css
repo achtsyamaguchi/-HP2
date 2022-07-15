@@ -57,14 +57,14 @@
 
 
 .concept_txt h2 {
-  font-size: clamp(1.8rem,2.2vw,2.5rem);
+  font-size: clamp(2rem,2.2vw,2.5rem);
   font-weight: bold;
-  margin-bottom: 5rem;
+  margin-bottom: 15%;
   border-bottom: 1px solid #10602b;
 }
 
 .concept_txt p {
-  font-size: clamp(1.8rem,1.8vw,2rem);
+  font-size: clamp(1.6rem,1.8vw,2rem);
   /* flex-grow: 1; */
 }
 
@@ -107,13 +107,13 @@
 }
 
 .works_txt h2 {
-  font-size: clamp(1.8rem,2.1vw,2.5rem);
-  margin-bottom: 6rem;
+  font-size: clamp(2rem,2.1vw,2.5rem);
+  margin-bottom: 15%;
   border-bottom: 1px solid #10602b;
 }
 
 .works_txt p {
-  font-size: clamp(1.8rem,1.8vw,2rem);
+  font-size: clamp(1.6rem,1.8vw,2rem);
 }
 
 .works_txt {
@@ -166,14 +166,14 @@
 }
 
 .company_txt h2 {
-  font-size:clamp(1.8rem,2.1vw,2.5rem);
+  font-size:clamp(2rem,2.1vw,2.5rem);
   display: inline-block;
   border-bottom: 2px solid #10602b;
   margin-bottom: 7.2rem;
 }
 
 .company_txt p {
-  font-size: clamp(1.8rem,1.8vw,2rem);
+  font-size: clamp(1.5rem,1.2vw,1.8rem);
   width: 70%;
   display: inline-block;
   text-align: left;
@@ -212,7 +212,7 @@
 }
 
 .recruit_txt h2 {
-  font-size: clamp(2.2rem,2.5vw,2.5rem);
+  font-size: clamp(2rem,2.5vw,2.5rem);
   font-weight: bold;
   width: fit-content;
   margin: 3rem auto;
@@ -220,7 +220,7 @@
 }
 
 .recruit_txt p {
-  font-size: clamp(1.8rem,1.8vw,2rem);
+  font-size: clamp(1.6rem,1.8vw,2rem);
 }
 
 .btn_recruit {
@@ -341,11 +341,11 @@
     border-bottom:1px solid #10602b;
     margin-bottom: 4.3rem;
     padding-bottom: 2.3rem;
-    font-size: 2.2rem;
+    /* font-size: 2.2rem; */
   }
 
   .concept_txt p {
-    font-size: 2rem;
+    /* font-size: 2rem; */
   }
 
   .section_ttl {
@@ -380,13 +380,13 @@
   }
 
   .works_txt h2 {
-    font-size: 2.2rem;
+    /* font-size: 2.2rem; */
     margin-bottom: 4.2rem;
     padding-bottom: 0.8rem;
   }
 
   .works_txt p {
-    font-size: 2rem;
+    /* font-size: 2rem; */
   }
 
   .btn {
@@ -404,7 +404,6 @@
 
   .company_txt {
     background-color: rgba(255, 255, 255, 0.72);
-    /* bottom: 0; */
     left: 0;
     right: 0;
     display: flex;
@@ -413,16 +412,15 @@
   }
 
   .company_txt h2 {
-    /* margin: unset; */
     padding-bottom: 1rem;
-    font-size: 2.2rem;
+    /* font-size: 2.2rem; */
     font-weight: bold;
     margin-top: 3.5%;
     margin-bottom: 3.5%;
   }
 
   .company_txt p {
-    font-size: 2rem;
+    /* font-size: 2rem; */
     width:40%;
     margin-bottom: 3.1%;
   }
@@ -497,11 +495,11 @@
   .concept_txt h2 {
     margin-bottom: 2.5rem;
     padding: unset;
-    font-size: 1.8rem;
+    /* font-size: 1.8rem; */
   }
 
   .concept_txt p {
-    font-size: 1.8rem;
+    /* font-size: 1.8rem; */
   }
 
   .works_inner_box {
@@ -522,7 +520,7 @@
 
   .works_txt h2,
   .works_txt p {
-    font-size: 1.8rem;
+    /* font-size: 1.8rem; */
   }
 
   .works_txt h2 {
@@ -542,11 +540,11 @@
   }
 
   .company_txt h2 {
-    font-size: 2rem;
+    /* font-size: 2rem; */
   }
 
   .company_txt p {
-    font-size: 1.8rem;
+    /* font-size: 1.8rem; */
   }
 }
 
